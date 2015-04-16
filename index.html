@@ -6,13 +6,12 @@
 	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet">
 		<script type="text/javascript">
-		flipped = 0;
 			function flipcard() {
-			if (flipped == 1) {
-				document.getElementById("card").innerHTML="<img src='img/contact_me.png'>";
-			}
+			
 			document.getElementById("card").innerHTML="<img src='img/contact_backside.png'>";
-			flipped = 1;
+			}
+			function flipback() {
+			document.getElementById("card").innerHTML="<img src='img/contact_me.png'>";
 			}
 		</script>
 	</head>
@@ -57,7 +56,7 @@
 				AFCEA Int'l Cyber Symposium 2013 Guest of Honor
 			</li>
 		</ul><span id="card">
-		<img src="img/contact_me.png" onmouseover="javascript:flipcard()" >
+		<img src="img/contact_me.png" onmouseover="javascript:flipcard()" onmouseout"javascript:flipback()" >
 		</span>
 	</div>
 	</body>
