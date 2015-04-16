@@ -6,8 +6,13 @@
 	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet">
 		<script type="text/javascript">
+		flipped = 0;
 			function flipcard() {
-				document.getElementById("card").innerHTML="<img src='img/contact_backside.png'>"
+				if (flipped = 1) {
+				document.getElementById("card").innerHTML="<img src='img/contact_me.png'>";
+				}
+				document.getElementById("card").innerHTML="<img src='img/contact_backside.png'>";
+				flipped = 1;
 			}
 		</script>
 	</head>
