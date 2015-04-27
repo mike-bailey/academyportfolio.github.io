@@ -23,6 +23,6 @@ display: block;
     font-size: 16px;
     opacity: 0.3;
 }
-.fadedh:hover {
+.fadedh.load {
     opacity: 1;
 }
