@@ -18,12 +18,11 @@ display: block;
     text-align: center;
     display: block;
 }
-.fadedh {
+#fadedh {
     text-align: center;
     font-size: 16px;
     opacity: 0.3;
 }
-.fadedh load {
+#fadedh.load {
     opacity: 1;
-    
 }
