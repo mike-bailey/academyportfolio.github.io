@@ -25,4 +25,5 @@ display: block;
 }
 #fadedh.load {
     opacity: 1;
+    font-size: 32px;
 }
