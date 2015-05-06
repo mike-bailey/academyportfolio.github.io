@@ -1,3 +1,16 @@
+.maintitle {
+font-family: "Lucida Console", Monaco, monospace;
+padding-top: 12px;
+font-size: 34px;
+font-style: bold;
+font-variant: normal;
+font-weight: bold;
+}
+.eportfolio {
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 24px;
+font-variant: normal;
+}
 .kontent {
 font-size: 18px;
 padding-top: 20px;
