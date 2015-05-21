@@ -10,6 +10,15 @@
 			
 			document.getElementById("card").innerHTML="<img src='img/contact_backside.png'>";
 			}
+			$("body").keydown(function(k) {
+				  if(k.keyCode == 37) { // left
+				   window.history.go(-1); return true;
+				  });
+  			} else if(k.keyCode == 39) { // right
+				   window.location = "http://academy.michaelbailey.co/aboutme.html"
+				  });
+  }
+});
 
 		</script>
 	</head>
